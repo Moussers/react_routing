@@ -1,10 +1,12 @@
-/* eslint-disable react/jsx-no-undef */
+﻿/* eslint-disable react/jsx-no-undef */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom';
+//HashRouter - используется для статических страниц: типа GitHub pages
+//BrowserRouter - используется для серверов
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
